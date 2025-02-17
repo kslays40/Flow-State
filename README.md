@@ -3,7 +3,7 @@ Flutter Application - Hive, RiverPod, SQLite, Material Design
 
 
 Here is the link to try sample apk - 
-https://drive.google.com/file/d/1gEE_Ub5XRU1W2g9fDUj1oj1cVgE6cX8i/view?usp=sharing
+https://drive.google.com/file/d/1EDlLmCWnlsKhDWZ0wMfYXt_OM8FrzQl8/view?usp=sharing
 
 
 Demo Video - 
