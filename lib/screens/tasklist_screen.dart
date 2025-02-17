@@ -59,14 +59,14 @@ class TaskListScreen extends ConsumerWidget {
             child: ListTile(
               textColor: Colors.black,
               iconColor: Colors.black,
-              title: Text(task.title,style: TextStyle(fontWeight: FontWeight.bold),),
+              title: Text(task.title,style: TextStyle(fontWeight: FontWeight.bold),overflow: TextOverflow.ellipsis,),
               subtitle: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(task.description),
+                  Text(task.description,overflow: TextOverflow.ellipsis,),
                   if (task.dueDate != null)
                     Text(
-                        'Due: ${task.dueDate!.toLocal().toString().split(' ')[0]}'),
+                        'Due: ${task.dueDate!.toLocal().toString().split(' ')[0]}',overflow: TextOverflow.ellipsis,),
                 ],
               ),
               trailing: Row(
